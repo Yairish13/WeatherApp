@@ -30,16 +30,22 @@
     text-align: center;
     justify-content: center;
   }
-  .right{
+  .right {
     width: 90vw;
+    height:inherit;
     margin: 15px;
+  }
 }
+@media only screen and (max-width: 845px) {
+  .right {
+    height: fit-content;
+    padding: 15px;
+  }
 }
-@media only screen and (max-width: 425px){
-  .right{
+@media only screen and (max-width: 425px) {
+  .right {
     width: 100vw;
     height: 70vh;
     margin: 15px;
+  }
 }
-}
-
