@@ -21,7 +21,7 @@
 .current_temp{
     display: flex;
     flex-direction: column;
-    height: 37%;
+    /* height: 37%; */
 }
 .city_temp{
     color: #FFFFFF;

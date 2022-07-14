@@ -35,4 +35,11 @@
     margin: 15px;
 }
 }
+@media only screen and (max-width: 425px){
+  .right{
+    width: 100vw;
+    height: 70vh;
+    margin: 15px;
+}
+}
 
