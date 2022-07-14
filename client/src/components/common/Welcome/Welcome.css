@@ -1,0 +1,14 @@
+.left_text {
+    width: 65%;
+    color: #707070;
+    font-size: 27px;
+  }
+  
+@media only screen and (max-width: 960px) {
+    .left_text {
+      width: 100%;
+    }
+    .company_logo {
+      width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.dashboard {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  margin: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.right {
+  margin: 50px;
+  width: 50vw;
+  height: 83vh;
+  background: #dde4e6 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .right{
+    width: 90vw;
+    margin: 15px;
+}
+}
+

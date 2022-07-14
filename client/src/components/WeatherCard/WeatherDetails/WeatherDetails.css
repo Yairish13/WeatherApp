@@ -1,0 +1,50 @@
+.weather_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    color: #A8C6CB;
+  }
+  .city_name{
+    color: #E8F1F2;
+    font-size: 20px;
+}
+.city_country{
+    color: #A8C6CB;
+    font-size:16px
+}
+.city_time{
+    color: #A8C6CB;
+    font-size:12px
+}
+.current_temp{
+    display: flex;
+    flex-direction: column;
+    height: 37%;
+}
+.city_temp{
+    color: #FFFFFF;
+    height: 60%;
+    font-size:80px;
+    font-weight: 600;
+}
+.city_condition{
+    color: #E8F1F2;
+    font-size:20px;
+}
+
+.detail_header{
+    font-size:16px;
+    color: #E8F1F2;
+}
+.detail_info{
+    font-size:14px;
+    color: #FFFFFF;
+}
+.weather_card_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

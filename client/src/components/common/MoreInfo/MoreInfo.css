@@ -1,0 +1,9 @@
+.searchbar_details {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 960px) {
+  .searchbar_details {
+    width: 100%;
+  }
+}
