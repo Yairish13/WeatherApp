@@ -15,7 +15,7 @@ function SearchingCard({ setCity, weatherObject }) {
   return (
     <div className="searchingCard_container">
         <Welcome />
-        <Searchbar  />
+        <Searchbar setCity={setCity} />
         <MoreInfo {...childProps} />
     </div>
   );
